@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: 50px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Background.jpg);
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    margin: -10px auto;
+    color: rgb(127, 127, 245);
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+}
+nav li{
+    color: rgb(56, 55, 55);
+    width: 180px;
+}
+nav > ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.Description{
+    width: 700px;
+    padding-top: 0px;
+    background-color: lightgray;
+    margin-top: 250px;
+    margin-left: 200px;
+    font-size: 50px;
+    opacity: 0.6;
+}
+.Profile{
+    
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 1100px;   
+}
+.About{
+    background-color: #ccc;
+    margin: 80px 200px;
+    padding: 60px;
+    opacity: 0.6;
+}
+ul{
+    font-size: 50px;
+}
